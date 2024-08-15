@@ -1,19 +1,15 @@
-package tarefa;
+package list.operacoesBasica;
 
-public class Task {
+public class Tarefa {
 
-    private String descricao;
+    private String descricao;       
 
-    
-
-    public Task() {
+    public Tarefa() {
     }
-    
 
-    public Task(String descricao) {
+    public Tarefa(String descricao) {
         this.descricao = descricao;
     }
-
 
     public String getDescricao() {
         return descricao;
@@ -23,10 +19,14 @@ public class Task {
         this.descricao = descricao;
     }
 
-
     @Override
     public String toString() {
-        return "Task [descricao=" + descricao + "]";
-    }    
+        return descricao;
+    }
+    
+    public static void main(String[] args) {
+        
+        
+    }
     
 }
